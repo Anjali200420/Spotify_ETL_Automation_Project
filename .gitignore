@@ -1,0 +1,16 @@
+# Environment & Secrets
+.env
+*.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow runtime files
+logs/
+airflow.cfg
+airflow.db
+
+# OS specific files
+.DS_Store
